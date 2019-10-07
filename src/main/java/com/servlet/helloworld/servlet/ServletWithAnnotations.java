@@ -12,6 +12,6 @@ public class ServletWithAnnotations extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest reqest, HttpServletResponse response) 
 			throws ServletException, IOException {
-		response.getWriter().println("Hello    World! Edited by auto  deploy dr");
+		response.getWriter().println("Hello   d World! Edited by auto  deploy dr");
 	}
 }
